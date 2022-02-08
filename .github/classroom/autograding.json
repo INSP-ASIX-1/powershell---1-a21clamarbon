@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "03 Check directory",
+      "setup": "rm -rf myTest; wget https://geronimost.alwaysdata.net/files/03-c.sh",
+      "run": "/bin/bash 03-c.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "01 Hello World",
+      "setup": "",
+      "run": "pwsh 01.ps1",
+      "input": "",
+      "output": "Hello World",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "02 Check dia de l'any",
+      "setup": "wget https://geronimost.alwaysdata.net/files/02-c.sh",
+      "run": "/bin/bash 02-c.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "05 Id process bash",
+      "setup": "wget https://geronimost.alwaysdata.net/files/05-c.sh",
+      "run": "/bin/bash 05-c.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "07 Número de comandes que comencen per Remove",
+      "setup": "wget https://geronimost.alwaysdata.net/files/07-c.sh",
+      "run": "/bin/bash 07-c.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "08 Gets the execution policies for the current session",
+      "setup": "wget https://geronimost.alwaysdata.net/files/08-c.sh",
+      "run": "/bin/bash 08-c.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "09 si dos numeros passats per parametre a l'script son iguals mostra OK. Si son diferents mostra KO",
+      "setup": "wget https://geronimost.alwaysdata.net/files/09-c.sh",
+      "run": "/bin/bash 09-c.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
